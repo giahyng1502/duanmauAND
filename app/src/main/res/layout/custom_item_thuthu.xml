@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_marginBottom="1dp"
+    android:paddingHorizontal="5dp"
+    android:paddingBottom="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:backgroundTint="#CACACA"
+        android:padding="5dp"
+        android:background="@drawable/custom_recycler">
+    <LinearLayout
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Tài Khoản : "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMaTT"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Mật Khẩu : "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMatKhau"
+                android:textSize="16sp"
+                android:text="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Họ Tên : "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvHoten_TT"
+                android:textSize="16sp"
+                android:text="Hoàng Văn Hưng"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_weight="0.5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/ivUpdate_TT"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/pencil"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/ivDel_TT"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/trash"/>
+</LinearLayout>
+</LinearLayout>
