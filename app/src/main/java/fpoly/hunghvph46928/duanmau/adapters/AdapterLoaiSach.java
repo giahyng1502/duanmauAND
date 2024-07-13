@@ -2,12 +2,12 @@ package fpoly.hunghvph46928.duanmau.adapters;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.Context;
+import android.content.Contexst;
 import android.content.DialogInterface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.Buzton;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -68,6 +68,7 @@ public class AdapterLoaiSach extends RecyclerView.Adapter<AdapterLoaiSach.ViewHo
                     Toast.makeText(context, "Vui lòng xóa hết sách thuộc loại sách này", Toast.LENGTH_SHORT).show();
                 }
             }
+            //vfhdjskcm
         });
         builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
             @Override
